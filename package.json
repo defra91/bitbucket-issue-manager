@@ -1,0 +1,19 @@
+{
+  "name": "bitbucket-issue-manager",
+  "version": "0.0.0",
+  "description": "",
+  "main": "bitbucker-issue-manager.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca De Franceschi <luca.defranceschi.91@gmail.com>",
+  "repository": "git@github.com:defra91/bitbucket-issue-manager.git",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.12.0",
+    "request": "^2.72.0"
+  }
+}
