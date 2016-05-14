@@ -1,0 +1,5 @@
+{
+	"HOST": "https://api.bitbucket.org/1.0/repositories",
+	"ACCOUNT_NAME": "",
+	"REPO_SLUG": ""
+}
