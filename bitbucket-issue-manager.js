@@ -15,9 +15,11 @@ var retrieveAll = function(cb) {
 	});
 };
 
-var getOneById = function(id, cb) {
+var getOneById = function(opts, cb) {
 
-	retrieveCtrl.getOneById(id, function(err, response) {
+	retrieveCtrl.getOneById({
+		id: opts.id
+	}, function(err, response) {
 		if (err) {
 			cb(err);
 		} else {

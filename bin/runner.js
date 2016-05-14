@@ -24,12 +24,27 @@ program
 
 program
 	.command('list')
-	.description('Get the list of issues from the configured bitbucket repository')
+	.description('Display the list of issues from the configured bitbucket repository')
 	.option('-s, --status <status>', 'Query issues on status')
-	.action(function(env, options) {
+	.action(function() {
 		bitbucketIssueManager.retrieveAll(function(err) {
 			if (err) {
-				console.log('Error while retrieving issues', err);
+				console.log('Error while retrieving issues');
+				console.log(err);
+			}
+		});
+	});
+
+program
+	.command('get [id]')
+	.description('Display the issue with the specified id')
+	.action(function(id) {
+		bitbucketIssueManager.getOneById({
+			id: id
+		}, function(err) {
+			if (err) {
+				console.log('Error while retrieving issue');
+				console.log(err);
 			}
 		});
 	});
