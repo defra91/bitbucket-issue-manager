@@ -15,4 +15,18 @@ var retrieveAll = function(cb) {
 	});
 };
 
+var getOneById = function(id, cb) {
+
+	retrieveCtrl.getOneById(id, function(err, response) {
+		if (err) {
+			cb(err);
+		} else {
+			printer.printOneIssue(response);
+			cb(null, response);
+		}
+	});
+
+};
+
 module.exports.retrieveAll = retrieveAll;
+module.exports.getOneById = getOneById;
