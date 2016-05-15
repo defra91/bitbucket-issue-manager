@@ -1,6 +1,7 @@
 'use strict';
 
 var retrieveCtrl = require('./lib/retrieve-ctrl');
+var createCtrl = require('./lib/create-ctrl');
 var printer = require('./lib/printer');
 
 var retrieveAll = function(cb) {
@@ -30,5 +31,13 @@ var getOneById = function(opts, cb) {
 
 };
 
+var createIssueFromPrompt = function() {
+	return createCtrl.createIssueFromPrompt().then(function(issue) {
+		printer.printOneIssue(issue);
+		return issue;
+	});
+};
+
 module.exports.retrieveAll = retrieveAll;
 module.exports.getOneById = getOneById;
+module.exports.createIssueFromPrompt = createIssueFromPrompt;

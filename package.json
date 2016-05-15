@@ -7,18 +7,22 @@
   },
   "main": "bitbucker-issue-manager.js",
   "scripts": {
-    "test": "ACCOUNT_NAME=defra91 REPO_SLUG=maap-landing-page mocha test/spec/retrieve.js"
+    "test.retrieve": "mocha test/spec/retrieve.js",
+    "test.create": "mocha -t 1000000 test/spec/create.js"
   },
   "preferGlobal": "true",
   "author": "Luca De Franceschi <luca.defranceschi.91@gmail.com>",
   "repository": "git@github.com:defra91/bitbucket-issue-manager.git",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.0.0-rc.4",
     "cli-table": "^0.3.1",
     "commander": "^2.9.0",
     "fs": "0.0.2",
+    "inquirer": "^1.0.2",
     "lodash": "^4.12.0",
     "prompt": "^1.0.0",
+    "q": "^1.4.1",
     "request": "^2.72.0"
   },
   "devDependencies": {

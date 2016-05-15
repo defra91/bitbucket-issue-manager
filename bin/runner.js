@@ -10,15 +10,14 @@ program
 	.version('0.0.0');
 
 program
-	.command('configure')
+	.command('setup')
 	.description('Configure the access to bitbucket repository')
 	.action(function() {
-		setup(function(err) {
-			if (err) {
-				console.log('Error while configuring module', err);
-			} else {
-				console.log('Module successfully configured!');
-			}
+		setup().then(function() {
+			console.log('Module successfully configured!');
+		}).catch(function(err) {
+			console.log('Error while configuring module:');
+			console.log(err);
 		});
 	});
 
@@ -44,6 +43,18 @@ program
 		}, function(err) {
 			if (err) {
 				console.log('Error while retrieving issue');
+				console.log(err);
+			}
+		});
+	});
+
+program
+	.command('create')
+	.description('Create a new issue')
+	.action(function() {
+		bitbucketIssueManager.createIssueFromPrompt(function(err) {
+			if (err) {
+				console.log('Error while creating issue');
 				console.log(err);
 			}
 		});

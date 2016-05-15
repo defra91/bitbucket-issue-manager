@@ -1,6 +1,6 @@
 {
 	"HOST": "https://api.bitbucket.org/1.0/repositories",
-	"ACCOUNT_NAME": "",
-	"REPO_SLUG": "",
+	"ACCOUNT_NAME": "defra91",
+	"REPO_SLUG": "maap-landing-page",
 	"AUTH_TOKEN": null
 }
