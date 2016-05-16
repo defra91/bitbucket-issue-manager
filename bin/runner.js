@@ -52,11 +52,9 @@ program
 	.command('create')
 	.description('Create a new issue')
 	.action(function() {
-		bitbucketIssueManager.createIssueFromPrompt(function(err) {
-			if (err) {
-				console.log('Error while creating issue');
-				console.log(err);
-			}
+		bitbucketIssueManager.createIssueFromPrompt().catch(function(err) {
+			console.log('Error while creating issue');
+			console.log(err);
 		});
 	});
 
