@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/bitbucket-issue-manager.png)](https://npmjs.org/package/bitbucket-issue-manager)
 
-A simple command tool to perform common operations in a bitbucker issue tracker like visualization, creation, update and delete of issues.
+A simple command tool to perform common operations in a bitbucket issue tracker. It supports common operations like visualization, creation, update and delete on issues.
 
 * [Installation](#installation)
 * [Documentation](#documentation)
