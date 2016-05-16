@@ -12,6 +12,8 @@ $ [sudo] npm install -g bitbucket-issue-manager
 $ [sudo] bitbucket-issue-manager setup
 ```
 
+<img align="left" alt="module setup" src="/docs/assets/setup.png" title="Setup"/>
+
 ## Documentation
 
 ### Get issues
@@ -21,13 +23,26 @@ $ [sudo] bitbucket-issue-manager setup
 ```
 $ bitbucket-issue-manager list
 ```
+
+<img align="left" alt="List issues" src="/docs/assets/list.png" title="List all issues"/>
+
 #### Get an issue by id
+
+```
+$ bitbucker-issue-manager get [id]
+```
+
+<img align="left" alt="Get issue by id" src="/docs/assets/get.png" title="Get an issue by id"/>
 
 ### Create a new issue
 
 ```
 $ bitbucket-issue-manager create
 ```
+
+It will start a prompt which will allow you to configure the fields of the new issue.
+
+<img align="left" alt="Create an issue" src="/docs/assets/create.png" title="Create a new issue"/>
 
 ## Goal and philosophy
 
