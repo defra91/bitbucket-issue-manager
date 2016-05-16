@@ -8,7 +8,7 @@ A simple command tool to perform common operations in a bitbucker issue tracker 
 * [Documentation](#documentation)
 	* [Get issues](#get-issues)
 		* [Get all issues](#get-all-issues)
-		*[Get an issue by id](#get-an-issue-by-id)
+		* [Get an issue by id](#get-an-issue-by-id)
 	* [Create a new issue](#create-a-new-issue)
 * [Goal and philosophy](#goal-and-philosophy)
 * [Upcoming featueres](#upcoming-features)
