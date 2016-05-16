@@ -25,7 +25,7 @@ $ [sudo] npm install -g bitbucket-issue-manager
 $ [sudo] bitbucket-issue-manager setup
 ```
 
-![Setup](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/setup.png "Setup module")
+![Setup](https://raw.githubusercontent.com/defra91/bitbucket-issue-manager/master/docs/assets/setup.png "Setup module")
 
 ## Documentation
 
@@ -37,7 +37,7 @@ $ [sudo] bitbucket-issue-manager setup
 $ bitbucket-issue-manager list
 ```
 
-![List](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/list.png "Get all issues")
+![List](https://raw.githubusercontent.com/defra91/bitbucket-issue-manager/master/docs/assets/list.png "Get all issues")
 
 #### Get an issue by id
 
@@ -45,7 +45,7 @@ $ bitbucket-issue-manager list
 $ bitbucker-issue-manager get [id]
 ```
 
-![Get one](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/get.png "Get one issue")
+![Get one](https://raw.githubusercontent.com/defra91/bitbucket-issue-manager/master/docs/assets/get.png "Get one issue")
 
 ### Create a new issue
 
@@ -55,7 +55,7 @@ $ bitbucket-issue-manager create
 
 It will start a prompt which will allow you to configure the fields of the new issue.
 
-![Create](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/create.png "Create a new issue")
+![Create](https://raw.githubusercontent.com/defra91/bitbucket-issue-manager/master/docs/assets/create.png "Create a new issue")
 
 ## Goal and philosophy
 
