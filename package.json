@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-issue-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "bitbucker-issue-manager": "bin/runner.js"
