@@ -1,7 +1,13 @@
 {
   "name": "bitbucket-issue-manager",
   "version": "1.0.2",
-  "description": "",
+  "description": "A simple command tool to perform common operations in a bitbucker issue tracker like visualization, creation, update and delete of issues.",
+  "keywords": [
+    "bitbucket",
+    "issue",
+    "issue tracker",
+    "command line tool"
+  ],
   "bin": {
     "bitbucker-issue-manager": "bin/runner.js"
   },
