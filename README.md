@@ -4,15 +4,15 @@
 
 A simple command tool to perform common operations in a bitbucker issue tracker like visualization, creation, update and delete of issues.
 
-1. [Installation](#installation)
-2. [Documentation](#documentation)
-	··* [Get issues](#get-issues)
-		···* [Get all issues](#get-all-issues)
-		···* [Get an issue by id](#get-an-issue-by-id)
-	··* [Create a new issue](#create-a-new-issue)
-3. [Goal and philosophy](#goal-and-philosophy)
-4. [Upcoming featueres](#upcoming-features)
-5. [License](#license)
+* [Installation](#installation)
+* [Documentation](#documentation)
+	* [Get issues](#get-issues)
+		* [Get all issues](#get-all-issues)
+		*[Get an issue by id](#get-an-issue-by-id)
+	* [Create a new issue](#create-a-new-issue)
+* [Goal and philosophy](#goal-and-philosophy)
+* [Upcoming featueres](#upcoming-features)
+* [License](#license)
 
 ## Installation
 
@@ -24,7 +24,7 @@ $ [sudo] npm install -g bitbucket-issue-manager
 $ [sudo] bitbucket-issue-manager setup
 ```
 
-[Setup]: https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/setup.png "Setup module"
+![Setup](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/setup.png "Setup module")
 
 ## Documentation
 
@@ -36,7 +36,7 @@ $ [sudo] bitbucket-issue-manager setup
 $ bitbucket-issue-manager list
 ```
 
-[List]: https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/list.png "Get all issues"
+![List](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/list.png "Get all issues")
 
 #### Get an issue by id
 
@@ -44,7 +44,7 @@ $ bitbucket-issue-manager list
 $ bitbucker-issue-manager get [id]
 ```
 
-[Get one]: https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/get.png "Get one issue"
+![Get one](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/get.png "Get one issue")
 
 ### Create a new issue
 
@@ -54,7 +54,7 @@ $ bitbucket-issue-manager create
 
 It will start a prompt which will allow you to configure the fields of the new issue.
 
-[Create]: https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/create.png "Create a new issue"
+![Create](https://github.com/defra91/bitbucket-issue-manager/blob/master/docs/assets/create.png "Create a new issue")
 
 ## Goal and philosophy
 
