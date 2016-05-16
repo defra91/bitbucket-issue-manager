@@ -80,7 +80,7 @@ However I noticed that managing issues required me to costantly switch between m
 
 Your feedback is really important for this project. If you like the module and have 60 seconds of time please fill the form linked below. Your contribution will determine the roadmap of the project. Thanks.
 
-https://docs.google.com/forms/d/12Ggno08wv4tD3OJpnoQxESgxpv5rIUKQzsOUU4U-5Wo/prefill
+https://docs.google.com/forms/d/12Ggno08wv4tD3OJpnoQxESgxpv5rIUKQzsOUU4U-5Wo
 
 Feel also free to [open a new issue](https://github.com/defra91/bitbucket-issue-manager/issues/new) on this project.
 
