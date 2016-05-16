@@ -1,9 +1,8 @@
 'use strict';
 
-var expect = require('chai').expect;
-
+var expect                = require('chai').expect;
 var bitbucketIssueManager = require('../../bitbucket-issue-manager');
-var retrieveCtrl = require('../../lib/retrieve-ctrl.js');
+var retrieveCtrl          = require('../../lib/retrieve-ctrl.js');
 
 describe('bitbucket-issue-manager - retrieve issues', function() {
 
@@ -48,7 +47,6 @@ describe('bitbucket-issue-manager - retrieve issues', function() {
 
 		it('Should return the selected issue', function() {
 			expect(response).to.not.be.undefined;
-			console.log(JSON.stringify(response, null, 4));
 		});
 
 	});
@@ -71,7 +69,7 @@ describe('bitbucket-issue-manager - retrieve issues', function() {
 
 		it('Should return the correctly components defined on the issue tracker', function() {
 			expect(components).to.not.be.undefined;
-			console.log('components', JSON.stringify(components, null, 4));
+			expect(components.length).to.be.above(1);
 		});
 	});
 
@@ -91,7 +89,7 @@ describe('bitbucket-issue-manager - retrieve issues', function() {
 
 		it('Should return all the milestones defined for the issue tracker', function() {
 			expect(milestones).to.not.be.undefined;
-			console.log('milestones', JSON.stringify(milestones, null, 4));
+			expect(milestones.length).to.be.above(1);
 		});
 	});	
 
@@ -111,7 +109,7 @@ describe('bitbucket-issue-manager - retrieve issues', function() {
 
 		it('Shoud return all the versions defined for the issue tracker', function() {
 			expect(versions).to.not.be.undefined;
-			console.log('versions', JSON.stringify(versions, null, 4));
+			expect(versions.length).to.be.above(1);
 		});
 	});
 });

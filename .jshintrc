@@ -5,7 +5,7 @@
         "it": false,
         "console": false,
         "describe": false,
-        "expect": false,
+        "expect": true,
         "beforeEach": false,
         "waits": false,
         "waitsFor": false,
