@@ -1,7 +1,7 @@
 {
   "name": "bitbucket-issue-manager",
   "version": "1.0.6",
-  "description": "A simple command tool to perform common operations in a bitbucker issue tracker like visualization, creation, update and delete of issues.",
+  "description": "A simple command tool to perform common operations in a bitbucket issue tracker. It supports common operations like visualization, creation, update and delete on issues.",
   "keywords": [
     "bitbucket",
     "issue",
