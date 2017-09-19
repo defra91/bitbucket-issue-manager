@@ -9,9 +9,9 @@
     "command line tool"
   ],
   "bin": {
-    "bitbucker-issue-manager": "bin/runner.js"
+    "bitbucket-issue-manager": "bin/runner.js"
   },
-  "main": "bitbucker-issue-manager.js",
+  "main": "bitbucket-issue-manager.js",
   "scripts": {
     "test.retrieve": "mocha test/spec/retrieve.js",
     "test.create": "mocha -t 1000000 test/spec/create.js"
